@@ -6,7 +6,7 @@
 Site_ITC/vendor
 Site_ITC/.gitignore
 laravel/
-
+laravel/*
 
 
 # User-specific files
