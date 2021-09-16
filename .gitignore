@@ -4,8 +4,8 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 Site_ITC/vendor
-
-laravel
+Site_ITC/.gitignore
+laravel/
 
 
 
