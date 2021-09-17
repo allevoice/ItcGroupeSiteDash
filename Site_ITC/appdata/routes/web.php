@@ -15,12 +15,20 @@ Route::get('/', function () {
     return view('home.home');
 });
 
-
-Route::get('/a-propos', function () {
+Route::get('/about', function () {
     return view('home.home');
 });
 
+Route::get('/services', function () {
+    return view('home.home');
+});
+
+Route::get('/projects', function () {
+    return view('home.home');
+});
 
 Route::get('/contact', function () {
-    return view('home.home');
+    return view('home.contact');
 });
+
+
