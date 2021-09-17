@@ -16,6 +16,11 @@ Route::get('/', function () {
 });
 
 
+Route::get('/a-propos', function () {
+    return view('home.home');
+});
+
+
 Route::get('/contact', function () {
     return view('home.home');
 });
