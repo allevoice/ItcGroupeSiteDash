@@ -11,24 +11,34 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 */
 
-Route::get('/', function () {
-    return view('home.home');
+//page erreur 404
+Route::fallback(function (){
+    return view('404');
 });
 
-Route::get('/about', function () {
-    return view('home.home');
-});
 
-Route::get('/services', function () {
-    return view('home.home');
-});
 
-Route::get('/projects', function () {
-    return view('home.home');
-});
 
-Route::get('/contact', function () {
-    return view('home.contact');
-});
+
+
+    Route::get('/', function () {
+        return view('home.home');
+    });
+
+    Route::get('/about', function () {
+        return view('home.home');
+    });
+
+    Route::get('/services', function () {
+        return view('home.home');
+    });
+
+    Route::get('/projects', function () {
+        return view('home.home');
+    });
+
+    Route::get('/contact', function () {
+        return view('home.contact');
+    });
 
 
