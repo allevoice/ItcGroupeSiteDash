@@ -1,8 +1,9 @@
 
 
 
-<!--=====================================--> 
-<!--============== Footer ===============--> 
+
+<!--=====================================-->
+<!--============== Footer ===============-->
 <!--=====================================-->
 <div class="darkBlueBg paddingBox col-lg-12 col-md-12 col-sm-12 col-xs-12">
     <div class="container">
@@ -23,11 +24,11 @@
                             <i class="fa fa-phone"></i> +509 3711.5990
                         </li>
                         <li>
-                            <i class="fa fa-envelope"></i> 
+                            <i class="fa fa-envelope"></i>
                             <a href="mailto:info@fcgroup.com">info@fcgroup.com</a>
                         </li>
                     </ul>
-                    <!--newsletter-->                     
+                    <!--newsletter-->
                 </aside>
                 <aside class="sitemap col-lg-2 col-md-3 col-sm-6 col-xs-12">
                     <h5>partnership</h5>
@@ -48,32 +49,32 @@
                             <a href="#">Event pa'm</a>
                         </li>
                     </ul>
-                    <!--sitemap-->                     
+                    <!--sitemap-->
                 </aside>
                 <aside class="twitter-feeds col-lg-3 col-md-3 col-sm-6 col-xs-12">
                     <h5>Facebook Feeds</h5>
                     <ul>
                         <li>
-                            <i class="fa fa-facebook"></i> 
+                            <i class="fa fa-facebook"></i>
                             <a href="#">Jean Samuel Jules CEO at www.ntpsams.com and developer Lionel W. Andre Pierreonel from jacmel at Haitinumerique conference ...<span class="tweet-link">https://facebook.com/itcgrouphaiti</span><span class="tweet-date">October , 18, 2017</span></a>
                         </li>
                         <li>
-                            <i class="fa fa-facebook"></i> 
+                            <i class="fa fa-facebook"></i>
                             <a href="#">Go confidently in the direction of your dreams. Live the life you've imagined ...<span class="tweet-link">https://facebook.com/itcgrouphaiti</span><span class="tweet-date">May , 14, 2014</span></a>
                         </li>
                     </ul>
-                    <!--twitter-feeds-->                     
+                    <!--twitter-feeds-->
                 </aside>
                 <aside class="copyright-section col-lg-3 col-md-3 col-sm-12 col-xs-12">
                     <div class="logo pull-left">
                         <a href="index.html">
-                            <img src="images/footer-logo.png" alt="logo" />
+                            <img src="assets/images/logo/footer-logo.png" alt="logo" />
                         </a>
                     </div>
                     <ul>
                         <li>Copyright © FC Group 2020.</li>
                         <li>All rights reserved.</li>
-                        <li>Created by: 
+                        <li>Created by:
                             <a href="#">Wilck Connect</a>
                         </li>
                     </ul>
@@ -90,18 +91,18 @@
                                 <a href="https://www.instagram.com/itcgrouphaiti" class="fa fa-google-plus" target="blank"></a>
                             </li>
                         </ul>
-                        <!--social-icons-->                         
+                        <!--social-icons-->
                     </div>
-                    <!--copyright-section-->                     
+                    <!--copyright-section-->
                 </aside>
-                <!--footer-->                 
+                <!--footer-->
             </div>
-            <!--row-->             
+            <!--row-->
         </div>
-        <!--container-->         
+        <!--container-->
     </div>
-    <!--darkBlueBg-->     
-</div> 
+    <!--darkBlueBg-->
+</div>
 
 
 
