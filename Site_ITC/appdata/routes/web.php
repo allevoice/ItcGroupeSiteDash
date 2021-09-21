@@ -1,7 +1,7 @@
 <?php
 
+use App\Http\Controllers\LangController;
 use Illuminate\Support\Facades\Route;
-
 
 /*
 |--------------------------------------------------------------------------
@@ -23,6 +23,9 @@ Route::fallback(function (){
 
 Route::redirect('/','en');
 
+Route::post('/lang',[LangController::class,'langroute'])->name('langchange');
+
+
 //Mes route en francais
 Route::group(['prefix'=>'fr'],function () {
 
@@ -31,7 +34,7 @@ Route::group(['prefix'=>'fr'],function () {
         return view('home.home');
     })->name('home.fr');
 
-    Route::get('/a-propos', function () {
+    Route::get('/about', function () {
         return view('home.about');
     })->name('about.fr');
 
@@ -39,15 +42,15 @@ Route::group(['prefix'=>'fr'],function () {
         return view('home.services');
     })->name('services.fr');
 
-    Route::get('/'.__('link.project'), function () {
+    Route::get('/project', function () {
         return view('home.projects');
     })->name('projects.fr');
 
-    Route::get('/'.__('link.blog'), function () {
+    Route::get('/blog', function () {
         return view('home.blog');
     })->name('blog.fr');
 
-    Route::get('/contact-nous', function () {
+    Route::get('/contact', function () {
         return view('home.contact');
     })->name('contact.fr');
 
@@ -70,11 +73,11 @@ Route::group(['prefix'=>'en'],function () {
         return view('home.services');
     })->name('services.en');
 
-    Route::get('/'.__('link.project'), function () {
+    Route::get('/project', function () {
         return view('home.projects');
     })->name('projects.en');
 
-    Route::get('/'.__('link.blog'), function () {
+    Route::get('/blog', function () {
         return view('home.blog');
     })->name('blog.en');
 

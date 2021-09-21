@@ -10,7 +10,7 @@
 
 
                     <a href="">
-                        <img src="assets/images/logo/logo.png" alt="logo" />
+                        <img src="{{asset('assets/img/logo/logo.png')}}" alt="logo" />
                     </a>
                 </div>
                 <div class="clearfix showmb"></div>
@@ -31,38 +31,64 @@
                             <div class="clearfix showmb"></div>
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                 <div class="row">
-                                    <ul class="nav navbar-nav">
-                                        <li class="active">
+                                    <ul class="nav navbar-nav pull-right" >
+                                        <li <li class="@if (url()->current() == route('home.'.app()->getLocale())) active @endif">
                                             <a href="{{route('home.'.app()->getLocale())}}">{{(__('link.home'))}}</a>
                                         </li>
-                                        <li>
+                                        <li <li class="@if (url()->current() == route('about.'.app()->getLocale())) active @endif">
                                             <a href="{{route('about.'.app()->getLocale())}}">About us</a>
                                         </li>
-                                        <li>
+                                        <li <li class="@if (url()->current() == route('services.'.app()->getLocale())) active @endif">
                                             <a href="{{route('services.'.app()->getLocale())}}">Services</a>
                                         </li>
-                                        <li>
+
+                                        <li class="@if (url()->current() == route('projects.'.app()->getLocale())) active @endif">
                                             <a href="{{route('projects.'.app()->getLocale())}}">Projects</a>
                                         </li>
 
-                                        <li>
+                                        <li <li class="@if (url()->current() == route('blog.'.app()->getLocale())) active @endif">
                                             <a href="{{route('blog.'.app()->getLocale())}}">{{__('link.blog')}}</a>
                                         </li>
 
 
-                                        <li>
+                                        <li class="@if (url()->current() == route('contact.'.app()->getLocale())) active @endif">
                                             <a href="{{route('contact.'.app()->getLocale())}}">Contact</a>
                                         </li>
+
+
+                                        <div class="pull-right" style="margin-top: -%">
+                                            <form action="{{route('langchange')}}" method="POST">
+                                                @csrf
+                                                <select name="selectlang" id="myselect" onchange="this.form.submit()">
+                                                    <option value="fr" @if (app()->getLocale() =='fr') selected @endif >fr</option>
+                                                    <option value="en" @if (app()->getLocale() =='en') selected  @endif >en</option>
+                                                </select>
+                                            </form>
+                                        </div>
+
+
                                     </ul>
+
+
+
+
                                     <!--row-->
                                 </div>
                                 <!--collapse-->
+
+
                             </div>
                             <!--row-->
                         </div>
+
                         <!--container-fluid-->
                     </div>
                     <!--navbar-->
+
+
+
+
+
                 </nav>
                 <!--header-->
             </aside>

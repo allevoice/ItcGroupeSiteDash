@@ -1,6 +1,6 @@
 @extends('template.tmpitcg')
 
-@section('title', 'Home')
+@section('title', __('link.home'))
 
 @section('datacontent')
 
