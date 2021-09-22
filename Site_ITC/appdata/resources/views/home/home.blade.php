@@ -22,7 +22,7 @@
                         <div class="services-box greyBg col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div>
                                 <figure data-effect="pop">
-                                    <img src="assets/images/icons/invest-img.png" alt="invest-img" />
+                                    <img src="{{asset('assets/img/icons/invest-img.png')}}" alt="invest-img" />
                                 </figure>
                                 <h4 class="black-color">installation</h4>
                                 <div class="services-info-con">
@@ -30,12 +30,12 @@
                                         <div class="services-infoBox">
                                             <div>
                                                 <figure>
-                                                    <img src="assets/images/icons/invest-imgHover.png" alt="invest-imgHover" />
+                                                    <img src="{{asset('assets/img/icons/invest-imgHover.png')}}" alt="invest-imgHover" />
                                                 </figure>
                                                 <h4 class="white-color">installation</h4>
                                                 <p class="regular-font">Energy system: solar panel, inverter and others</p>
                                                 <div class="transparent-btn btn1">
-                                                    <a href="contact.html">Contact</a>
+                                                    <a href="{{route('contact.'.app()->getLocale())}}">Contact</a>
                                                 </div>
                                             </div>
                                             <!--services-infoBox-->
@@ -52,7 +52,7 @@
                         <div class="services-box greyBg col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div>
                                 <figure data-effect="pop">
-                                    <img src="assets/images/icons/funds-img.png" alt="funds-img" />
+                                    <img src="{{asset('assets/img/icons/funds-img.png')}}" alt="funds-img" />
                                 </figure>
                                 <h4 class="black-color">Web development</h4>
                                 <div class="services-info-con">
@@ -60,12 +60,12 @@
                                         <div class="services-infoBox">
                                             <div>
                                                 <figure>
-                                                    <img src="assets/images/icons/funds-imgHover.png" alt="funds-imgHover" />
+                                                    <img src="{{asset('assets/img/icons/funds-imgHover.png')}}" alt="funds-imgHover" />
                                                 </figure>
                                                 <h4 class="white-color">Web development</h4>
                                                 <p class="regular-font">Computer system development such as: platform, website etc.</p>
                                                 <div class="transparent-btn btn1">
-                                                    <a href="contact.html">Contact</a>
+                                                    <a href="{{route('contact.'.app()->getLocale())}}">Contact</a>
                                                 </div>
                                             </div>
                                             <!--services-infoBox-->
@@ -82,7 +82,7 @@
                         <div class="services-box greyBg col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div>
                                 <figure data-effect="pop">
-                                    <img src="assets/images/icons/saving-img.png" alt="saving-img" />
+                                    <img src="{{asset('assets/img/icons/saving-img.png')}}" alt="saving-img" />
                                 </figure>
                                 <h4 class="black-color">Telecommunication</h4>
                                 <div class="services-info-con">
@@ -90,12 +90,12 @@
                                         <div class="services-infoBox">
                                             <div>
                                                 <figure>
-                                                    <img src="assets/images/icons/saving-imgHover.png" alt="saving-imgHover" />
+                                                    <img src="{{asset('assets/img/icons/saving-imgHover.png')}}" alt="saving-imgHover" />
                                                 </figure>
                                                 <h4 class="white-color">Telecommunication</h4>
                                                 <p class="regular-font">Network system, server, wireless, cabling etc.</p>
                                                 <div class="transparent-btn btn1">
-                                                    <a href="contact.html">Contact</a>
+                                                    <a href="{{route('contact.'.app()->getLocale())}}">Contact</a>
                                                 </div>
                                             </div>
                                             <!--services-infoBox-->
@@ -112,7 +112,7 @@
                         <div class="services-box greyBg col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div>
                                 <figure data-effect="pop">
-                                    <img src="assets/images/icons/retirement-img.png" alt="retirement-img" />
+                                    <img src="{{asset('assets/img/icons/retirement-img.png')}}" alt="retirement-img" />
                                 </figure>
                                 <h4 class="black-color">Security</h4>
                                 <div class="services-info-con">
@@ -120,12 +120,12 @@
                                         <div class="services-infoBox">
                                             <div>
                                                 <figure>
-                                                    <img src="assets/images/icons/retirement-imgHover.png" alt="retirement-imgHover" />
+                                                    <img src="{{asset('assets/img/icons/retirement-imgHover.png')}}" alt="retirement-imgHover" />
                                                 </figure>
                                                 <h4 class="white-color">Security</h4>
                                                 <p class="regular-font">Telesurveillance system, camera, alarm and others.</p>
                                                 <div class="transparent-btn btn1">
-                                                    <a href="contact.html">Contact</a>
+                                                    <a href="{{route('contact.'.app()->getLocale())}}">Contact</a>
                                                 </div>
                                             </div>
                                             <!--services-infoBox-->
@@ -156,7 +156,7 @@
                             <p>We are a progressive group. Evolving in several fields such as IT. We are here to offer you quality and standard services.</p>
                             <p>Contact Us today. </p>
                             <div class="transparent-btn pull-left">
-                                <a href="contact.html">Join Now</a>
+                                <a href="{{route('contact.'.app()->getLocale())}}">Join Now</a>
                             </div>
                         </div>
                         <!--who-we-are-->
@@ -165,7 +165,7 @@
                 </div>
 
                 <div class="who-we-are-img">
-                    <img src="assets/images/logo/who-we-are-img.png" alt="who-we-are-img" />
+                    <img src="{{asset('assets/img/logo/who-we-are-img.png')}}" alt="who-we-are-img" />
                 </div>
 
                 <!--container-->
@@ -182,7 +182,7 @@
                     <div class="text-center col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <div class="logo-background">
                             <figure class="business-meeting-img">
-                                <img src="assets/images/logo/business-meeting.png" alt="business-meeting" />
+                                <img src="{{asset('assets/img/logo/business-meeting.png')}}" alt="business-meeting" />
                             </figure>
                             <!--logo-background-->
                         </div>
@@ -194,13 +194,13 @@
                         <p>We have packages for successful businesses. Go ahead and make you known everywhere. Find your needs among our services. </p>
                         <p class="blue-color regular-font">Trust us. We are the ideal partner to help you grow well and quickly. Join us now for services such as:</p>
                         <ul>
-                            <li>Web development. </li>
-                            <li>Equipments. </li>
-                            <li>Security. </li>
-                            <li>Guidance. </li>
+                            <li style="background: url({{asset('assets/img/icons/li-icon.png')}}) no-repeat left 7px;">Web development. </li>
+                            <li style="background: url({{asset('assets/img/icons/li-icon.png')}}) no-repeat left 7px;">Equipments. </li>
+                            <li style="background: url({{asset('assets/img/icons/li-icon.png')}}) no-repeat left 7px;">Security. </li>
+                            <li style="background: url({{asset('assets/img/icons/li-icon.png')}}) no-repeat left 7px;">Guidance. </li>
                         </ul>
                         <div class="transparent-btn pull-left">
-                            <a href="contact.html">Contact Us</a>
+                            <a href="{{route('contact.'.app()->getLocale())}}">Contact Us</a>
                         </div>
                         <!--business-box-->
                     </div>
@@ -224,7 +224,7 @@
             <aside class="business-imagebox col-lg-4 col-md-4 col-sm-7 col-xs-12 ">
                 <div class="row">
                     <figure>
-                        <img alt="business-quality" src="assets/images/logo/business-quality.jpg">
+                        <img alt="business-quality" src="{{asset('assets/img/logo/business-quality.jpg')}}">
                     </figure>
                     <h3 class="caption-heading">quality</h3>
                     <div class="caption">
@@ -243,7 +243,7 @@
             <aside class="business-imagebox col-lg-4 col-md-4 col-sm-7 col-xs-12 ">
                 <div class="row">
                     <figure>
-                        <img alt="commitment" src="assets/images/logo/commitment.jpg">
+                        <img alt="commitment" src="{{asset('assets/img/logo/commitment.jpg')}}">
                     </figure>
                     <h3 class="caption-heading">commitment</h3>
                     <div class="caption">
@@ -262,7 +262,7 @@
             <aside class="business-imagebox col-lg-4 col-md-4 col-sm-7 col-xs-12 ">
                 <div class="row">
                     <figure>
-                        <img alt="business-success" src="assets/images/logo/business-success.jpg">
+                        <img alt="business-success" src="{{asset('assets/img/logo/business-success.jpg')}}">
                     </figure>
                     <h3 class="caption-heading">swiftness</h3>
                     <div class="caption">
@@ -361,7 +361,7 @@
                         <aside class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="partner-logos col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <span> <a href="#">
-                                        <img src="assets/images/partners/partner-logo1.png" alt="" />
+                                        <img src="{{asset('assets/img/partners/partner-logo1.png')}}" alt="" />
                                     </a> </span>
                                 <!--partner-logos-->
                             </div>
@@ -372,7 +372,7 @@
                         <aside class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="partner-logos col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <span> <a href="#">
-                                        <img src="assets/images/partners/partner-logo2.png" alt="" />
+                                        <img src="{{asset('assets/img/partners/partner-logo2.png')}}" alt="" />
                                     </a> </span>
                                 <!--partner-logos-->
                             </div>
@@ -383,7 +383,7 @@
                         <aside class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="partner-logos col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <span> <a href="#">
-                                        <img src="assets/images/partners/partner-logo3.png" alt="" />
+                                        <img src="{{asset('assets/img/partners/partner-logo3.png')}}" alt="" />
                                     </a> </span>
                                 <!--partner-logos-->
                             </div>
@@ -394,7 +394,7 @@
                         <aside class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
                             <div class="partner-logos col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <span> <a href="#">
-                                        <img src="assets/images/partners/partner-logo4.png" alt="" />
+                                        <img src="{{asset('assets/img/partners/partner-logo4.png')}}" alt="" />
                                     </a> </span>
                                 <!--partner-logos-->
                             </div>
@@ -403,7 +403,7 @@
                         <aside class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="partner-logos col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <span> <a href="#">
-                                        <img src="assets/images/partners/partner-logo5.png" alt="" />
+                                        <img src="{{asset('assets/img/partners/partner-logo5.png')}}" alt="" />
                                     </a> </span>
                                 <!--partner-logos-->
                             </div>
@@ -412,7 +412,7 @@
                         <aside class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="partner-logos col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <span> <a href="#">
-                                        <img src="assets/images/partners/partner-logo6.png" alt="" />
+                                        <img src="{{asset('assets/img/partners/partner-logo6.png')}}" alt="" />
                                     </a> </span>
                                 <!--partner-logos-->
                             </div>
@@ -421,7 +421,7 @@
                         <aside class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="partner-logos col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <span> <a href="#">
-                                        <img src="assets/images/partners/partner-logo7.png" alt="" />
+                                        <img src="{{asset('assets/img/partners/partner-logo7.png')}}" alt="" />
                                     </a> </span>
                                 <!--partner-logos-->
                             </div>
@@ -430,7 +430,7 @@
                         <aside class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="partner-logos col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <span> <a href="#">
-                                        <img src="assets/images/partners/partner-logo8.png" alt="" />
+                                        <img src="{{asset('assets/img/partners/partner-logo8.png')}}" alt="" />
                                     </a> </span>
                                 <!--partner-logos-->
                             </div>

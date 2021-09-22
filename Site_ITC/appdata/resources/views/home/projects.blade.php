@@ -36,7 +36,7 @@
                 </div>
 
                 <div class="sub-banner-img subbannerabout col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <img src="assets/images/banners/about-banner.jpg">
+                    <img src="{{asset('assets/img/banners/about-banner.jpg')}}">
                 </div>
                 <!--row-->
             </div>
@@ -54,7 +54,9 @@
             <div class="container">
                 <div class="row text-center">
                     <h2 class="black-font">Our Latest Work</h2>
-                    <p>Find our latest achievements, in all areas such as: security, data management, installation etc. <br>Our customers are all over the country.</p>
+                    <p>Find our latest achievements, in all areas such as:
+                        security, data management, installation etc.
+                        <br>Our customers are all over the country.</p>
                     <!--row-->
                 </div>
                 <!--container-->
@@ -81,10 +83,13 @@
                             <ul>
                                 <li class="all insurance col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div class="project-details text-left col-lg-12 col-md-12 co-sm-12 col-xs-12">
-                                        <figure><img src="assets/images/logo/project-img1.jpg" alt="project-img1" /></figure>
+                                        <figure><img src="{{asset('assets/img/logo/project-img1.jpg')}}" alt="project-img1" />
+                                        </figure>
                                         <div>
                                             <h3 class="black-color">Anual Company Growth</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim aquis nostrud exercitatio ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim aquis nostrud
+                                                exercitatio ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                         </div>
                                         <!--project-details-->
                                     </div>
@@ -92,10 +97,12 @@
                                 </li>
                                 <li class="all debit col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div class="project-details text-left col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <figure><img src="assets/images/logo/project-img2.jpg" alt="project-img2" /></figure>
+                                        <figure><img src="{{asset('assets/img/logo/project-img2.jpg')}}" alt="project-img2" /></figure>
                                         <div>
                                             <h3 class="black-color">Estelle Solution</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim aquis nostrud exercitatio ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim aquis nostrud
+                                                exercitatio ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                         </div>
                                         <!--project-details-->
                                     </div>
@@ -104,10 +111,13 @@
 
                                 <li class="all invoice col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div class="project-details text-left col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <figure><img src="assets/images/logo/project-img3.jpg" alt="project-img3" /></figure>
+                                        <figure><img src="{{asset('assets/img/logo/project-img3.jpg')}}" alt="project-img3" />
+                                        </figure>
                                         <div>
                                             <h3 class="black-color">Insurance</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim aquis nostrud exercitatio ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim aquis nostrud
+                                                exercitatio ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                         </div>
                                         <!--project-details-->
                                     </div>
@@ -116,10 +126,12 @@
 
                                 <li class="all insurance col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div class="project-details text-left col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <figure><img src="assets/images/logo/project-img4.jpg" alt="project-img4" /></figure>
+                                        <figure><img src="{{asset('assets/img/logo/project-img4.jpg')}}" alt="project-img4" /></figure>
                                         <div>
                                             <h3 class="black-color">Estelle Solution</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim aquis nostrud exercitatio ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim aquis nostrud
+                                                exercitatio ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                         </div>
                                         <!--project-details-->
                                     </div>
@@ -128,10 +140,12 @@
 
                                 <li class="all report col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div class="project-details text-left col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <figure><img src="assets/images/logo/project-img5.jpg" alt="project-img5" /></figure>
+                                        <figure><img src="{{asset('assets/img/logo/project-img5.jpg')}}" alt="project-img5" /></figure>
                                         <div>
                                             <h3 class="black-color">Business Insurance</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim aquis nostrud exercitatio ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim aquis nostrud
+                                                exercitatio ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                         </div>
                                         <!--project-details-->
                                     </div>
@@ -140,10 +154,13 @@
 
                                 <li class="all invoice col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                     <div class="project-details text-left col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                        <figure><img src="assets/images/logo/project-img6.jpg" alt="project-img6" /></figure>
+                                        <figure><img src="{{asset('assets/img/logo/project-img6.jpg')}}" alt="project-img6" /></figure>
                                         <div>
                                             <h3 class="black-color">business commitment</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim aquis nostrud exercitatio ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                                tempor incididunt ut labore et dolore magna aliqua. Ut enim aquis
+                                                nostrud exercitatio ullamco laboris nisi ut aliquip ex ea commodo
+                                                consequat.</p>
                                         </div>
                                         <!--project-details-->
                                     </div>

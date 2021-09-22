@@ -34,7 +34,7 @@
                     <!--container-->
                 </div>
                 <div class="sub-banner-img subbannerabout col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <img src="assets/images/banners/about-banner.jpg">
+                    <img src="{{asset('assets/img/banners/about-banner.jpg')}}">
                 </div>
                 <!--row-->
             </div>
@@ -49,14 +49,6 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                        <!--//
-                        <form method="get" id="searchform" action="#">
-                          <div>
-                            <input type="text" value="Search..." name="s" id="s" />
-                            <button type="submit" id="searchsubmit" class="fa  fa-search"></button>
-                          </div>
-                        </form>
-                        //-->
                         <aside class="sidebar catagories col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
                             <aside class="sidebar tags col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -66,13 +58,24 @@
                                     <!--row-->
                                 </div>
                                 <!--sidebar-->
+                                <div class="row">
+                                    <h3>Autre Post</h3>
+                                    <a href="#">Jean Samuel JULEs Biography </a>
+                                    <a href="#">Jean Samuel JULEs Biography </a>
+                                    <a href="#">Jean Samuel JULEs Biography </a>
+                                    <a href="#">Jean Samuel JULEs Biography </a>
+                                    <a href="#">Jean Samuel JULEs Biography </a>
+                                    <a href="#">Jean Samuel JULEs Biography </a>
+
+                                    <!--row-->
+                                </div>
                             </aside>
 
                     </div>
                     <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
                         <aside class="blog-post-box col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="row">
-                                <figure class="post-img"> <img src="assets/images/blog/post-img1.jpg" alt="post-img1" /> <span class="date-tag semibold-font">12 <br>
+                                <figure class="post-img"> <img src="{{asset('assets/img/blog/post-img1.jpg')}}" alt="post-img1" /> <span class="date-tag semibold-font">12 <br>
                 AUGUST 2020</span>
                                     <!--post-img-->
                                 </figure>

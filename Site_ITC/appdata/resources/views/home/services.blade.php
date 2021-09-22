@@ -36,7 +36,7 @@
                     <!--container-->
                 </div>
                 <div class="sub-banner-img subbannerabout col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <img src="assets/images/banners/about-banner.jpg">
+                    <img src="{{asset('assets/img/banners/about-banner.jpg')}}">
                 </div>
                 <!--row-->
             </div>
@@ -55,11 +55,11 @@
                     <div class="spacer"></div>
                     <aside class="services-plans col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <figure>
-                            <img src="assets/images/services/services-img1.jpg" alt="" />
+                            <img src="{{asset('assets/img/services/services-img1.jpg')}}" alt="" />
                         </figure>
                         <div class="service-innerbox greyBg">
                             <div class="icon-holder BlueBg" data-effect="helix">
-                                <span><img src="assets/images/icons/invest-img2.png" alt="invest-img2" /></span>
+                                <span><img src="{{asset('assets/img/icons/invest-img2.png')}}" alt="invest-img2" /></span>
                             </div>
                             <h4>Installation</h4>
                             <p>For your installation needs: inverter, solar panel, wireless printing, cash register, network etc.</p>
@@ -69,11 +69,11 @@
                     </aside>
                     <aside class="services-plans col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <figure>
-                            <img src="assets/images/services/services-img2.jpg" alt="" />
+                            <img src="{{asset('assets/img/services/services-img2.jpg')}}" alt="" />
                         </figure>
                         <div class="service-innerbox greyBg">
                             <div class="icon-holder BlueBg" data-effect="helix">
-                                <span><img src="assets/images/icons/funds-img2.png" alt="invest-img2" /></span>
+                                <span><img src="{{asset('assets/img/icons/funds-img2.png')}}" alt="invest-img2" /></span>
                             </div>
                             <h4>Web development</h4>
                             <p>We offer tailor-made developments such as: website, online platform, application etc.</p>
@@ -83,11 +83,11 @@
                     </aside>
                     <aside class="services-plans col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <figure>
-                            <img src="assets/images/services/services-img3.jpg" alt="" />
+                            <img src="{{asset('assets/img/services/services-img3.jpg')}}" alt="" />
                         </figure>
                         <div class="service-innerbox greyBg">
                             <div class="icon-holder BlueBg" data-effect="helix">
-                                <span><img src="assets/images/icons/headset-img2.png" alt="invest-img2" /></span>
+                                <span><img src="{{asset('assets/img/icons/headset-img2.png')}}" alt="invest-img2" /></span>
                             </div>
                             <h4>Support</h4>
                             <p>We are available to support you in all your IT concerns. Contact our teams 6 days a week.</p>
@@ -97,11 +97,11 @@
                     </aside>
                     <aside class="services-plans col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <figure>
-                            <img src="assets/images/services/services-img4.jpg" alt="" />
+                            <img src="{{asset('assets/img/services/services-img4.jpg')}}" alt="" />
                         </figure>
                         <div class="service-innerbox greyBg">
                             <div class="icon-holder BlueBg" data-effect="helix">
-                                <span><img src="assets/images/icons/cast-img2.png" alt="invest-img2" /></span>
+                                <span><img src="{{asset('assets/img/icons/cast-img2.png')}}" alt="invest-img2" /></span>
                             </div>
                             <h4>Telecommunication</h4>
                             <p>This is our specialty. Networks, server, internet etc we are here to serve you. Make us your supplier.</p>
@@ -112,11 +112,11 @@
                     <div class="spacer"></div>
                     <aside class="services-plans col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <figure>
-                            <img src="assets/images/services/services-img5.jpg" alt="" />
+                            <img src="{{asset('assets/img/services/services-img5.jpg')}}" alt="" />
                         </figure>
                         <div class="service-innerbox greyBg">
                             <div class="icon-holder BlueBg" data-effect="helix">
-                                <span><img src="assets/images/icons/storage-img2.png" alt="invest-img2" /></span>
+                                <span><img src="{{asset('assets/img/icons/storage-img2.png')}}" alt="invest-img2" /></span>
                             </div>
                             <h4>Data management</h4>
                             <p>We process and secure your data in the cloud.</p>
@@ -126,11 +126,11 @@
                     </aside>
                     <aside class="services-plans col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <figure>
-                            <img src="assets/images/services/services-img6.jpg" alt="" />
+                            <img src="{{asset('assets/img/services/services-img6.jpg')}}" alt="" />
                         </figure>
                         <div class="service-innerbox greyBg">
                             <div class="icon-holder BlueBg" data-effect="helix">
-                                <span><img src="assets/images/icons/retirement-img2.png" alt="invest-img2" /></span>
+                                <span><img src="{{asset('assets/img/icons/retirement-img2.png')}}" alt="invest-img2" /></span>
                             </div>
                             <h4>Security</h4>
                             <p>We have all kinds of security cameras. Infrared etc. Control everything with your smartphone.</p>
@@ -140,11 +140,11 @@
                     </aside>
                     <aside class="services-plans col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <figure>
-                            <img src="assets/images/services/services-img3.jpg" alt="" />
+                            <img src="{{asset('assets/img/services/services-img3.jpg')}}" alt="" />
                         </figure>
                         <div class="service-innerbox greyBg">
                             <div class="icon-holder BlueBg" data-effect="helix">
-                                <span><img src="assets/images/icons/do-not-disturb-img2.png" alt="invest-img2" /></span>
+                                <span><img src="{{asset('assets/img/icons/do-not-disturb-img2.png')}}" alt="invest-img2" /></span>
                             </div>
                             <h4>Saving & Investments</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incidid unt ut labore.</p>
@@ -154,11 +154,11 @@
                     </aside>
                     <aside class="services-plans col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <figure>
-                            <img src="assets/images/services/services-img4.jpg" alt="" />
+                            <img src="{{asset('assets/img/services/services-img4.jpg')}}" alt="" />
                         </figure>
                         <div class="service-innerbox greyBg">
                             <div class="icon-holder BlueBg" data-effect="helix">
-                                <span><img src="assets/images/icons/do-not-disturb-img2.png" alt="invest-img2" /></span>
+                                <span><img src="{{asset('assets/img/icons/do-not-disturb-img2.png')}}" alt="invest-img2" /></span>
                             </div>
                             <h4>Retirements</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incidid unt ut labore.</p>
@@ -183,7 +183,7 @@
                 <aside class="business-imagebox col-lg-4 col-md-4 col-sm-7 col-xs-12 ">
                     <div class="row">
                         <figure>
-                            <img alt="business-quality" src="assets/images/logo/business-quality.jpg">
+                            <img alt="business-quality" src="{{asset('assets/img/logo/business-quality.jpg')}}">
                         </figure>
                         <h3 class="caption-heading">quality</h3>
                         <div class="caption">
@@ -202,7 +202,7 @@
                 <aside class="business-imagebox col-lg-4 col-md-4 col-sm-7 col-xs-12 ">
                     <div class="row">
                         <figure>
-                            <img alt="commitment" src="assets/images/logo/commitment.jpg">
+                            <img alt="commitment" src="{{asset('assets/img/logo/commitment.jpg')}}">
                         </figure>
                         <h3 class="caption-heading">commitment</h3>
                         <div class="caption">
@@ -221,7 +221,7 @@
                 <aside class="business-imagebox col-lg-4 col-md-4 col-sm-7 col-xs-12 ">
                     <div class="row">
                         <figure>
-                            <img alt="business-success" src="assets/images/logo/business-success.jpg">
+                            <img alt="business-success" src="{{asset('assets/img/logo/business-success.jpg')}}">
                         </figure>
                         <h3 class="caption-heading">swiftness</h3>
                         <div class="caption">
@@ -252,7 +252,7 @@
                     <div class="text-center col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <div class="logo-background">
                             <figure class="business-meeting-img">
-                                <img src="assets/images/logo/business-meeting.png" alt="business-meeting" />
+                                <img src="{{asset('assets/img/logo/business-meeting.png')}}" alt="business-meeting" />
                             </figure>
                             <!--logo-background-->
                         </div>
@@ -264,13 +264,13 @@
                         <p>We have packages for successful businesses. Go ahead and make you known everywhere. Find your needs among our services. </p>
                         <p class="blue-color regular-font">Trust us. We are the ideal partner to help you grow well and quickly. Join us now for services such as:</p>
                         <ul>
-                            <li style="background: url(assets/images/icons/li-icon.png) no-repeat left 7px;">Web development. </li>
-                            <li style="background: url(assets/images/icons/li-icon.png) no-repeat left 7px;">Equipments. </li>
-                            <li style="background: url(assets/images/icons/li-icon.png) no-repeat left 7px;">Security. </li>
-                            <li style="background: url(assets/images/icons/li-icon.png) no-repeat left 7px;">Guidance. </li>
+                            <li style="background: url({{asset('assets/img/icons/li-icon.png')}}) no-repeat left 7px;">Web development. </li>
+                            <li style="background: url({{asset('assets/img/icons/li-icon.png')}}) no-repeat left 7px;">Equipments. </li>
+                            <li style="background: url({{asset('assets/img/icons/li-icon.png')}}) no-repeat left 7px;">Security. </li>
+                            <li style="background: url({{asset('assets/img/icons/li-icon.png')}}) no-repeat left 7px;">Guidance. </li>
                         </ul>
                         <div class="transparent-btn pull-left">
-                            <a href="contact.html">Contact Us</a>
+                            <a href="{{route('contact.'.app()->getLocale())}}">Contact Us</a>
                         </div>
                         <!--business-box-->
                     </div>

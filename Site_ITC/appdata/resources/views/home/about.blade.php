@@ -1,6 +1,6 @@
 @extends('template.tmpitcg')
 
-@section('title', 'Home')
+@section('title', 'About')
 
 @section('bannerpage')
 
@@ -35,7 +35,7 @@
                     <!--container-->
                 </div>
                 <div class="sub-banner-img subbannerabout col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <img src="assets/images/banners/about-banner.jpg">
+                    <img src="{{asset('assets/img/banners/about-banner.jpg')}}">
                 </div>
                 <!--row-->
             </div>
@@ -57,7 +57,7 @@
                 <div class="row">
                     <div class="text-center col-lg-6 col-md-6 col-sm-12 col-xs-12">
                         <div class="logo-background company-graph">
-                            <figure><img src="assets/images/logo/company-graph.png" alt="company-graph"/></figure>
+                            <figure><img src="{{asset('assets/img/logo/company-graph.png')}}" alt="company-graph"/></figure>
                             <!--logo-background-->
                         </div>
                         <!--text-center-->
@@ -67,16 +67,16 @@
                         <p>ITC Group is an IT consulting firm founded in 2008. Since then, its client list has expanded to include a large number of private companies, as well as NGOs and public organizations. We have created a highly effective center of skills and expertise covering various domains in the technology world. Our staff members have the capabilities and resources to deal with very specific issues and highly specialized cases.</p>
                         <p class="blue-color regular-font">Our mission is to empower our customers so they can realize their IT projects. A multidisciplinary team of consultants enables clients to benefit from a holistic approach to IT project management. From strategy to operational application and follow-ups, our clients experience a really close relationship and personalized support to ensure the success of their companies and their IT projects.</p>
                         <ul>
-                            <li style="background: url(assets/images/icons/li-icon.png) no-repeat left 7px;">Computer network implementation and maintenance;</li>
-                            <li style="background: url(assets/images/icons/li-icon.png) no-repeat left 7px;">Security and surveillance Systems for offices and vehicles;</li>
-                            <li style="background: url(assets/images/icons/li-icon.png) no-repeat left 7px;">Translation and video conference systems;</li>
-                            <li style="background: url(assets/images/icons/li-icon.png) no-repeat left 7px;">Satellite television systems setup;</li>
-                            <li style="background: url(assets/images/icons/li-icon.png) no-repeat left 7px;">Solar Energy system implementation;</li>
-                            <li style="background: url(assets/images/icons/li-icon.png) no-repeat left 7px;">Database setup and management;</li>
-                            <li style="background: url(assets/images/icons/li-icon.png) no-repeat left 7px;">Websites and software programing;</li>
-                            <li style="background: url(assets/images/icons/li-icon.png) no-repeat left 7px;">Seminars on integrated management software packages;</li>
-                            <li style="background: url(assets/images/icons/li-icon.png) no-repeat left 7px;"> Translation & Interpration Services;</li>
-                            <li style="background: url(assets/images/icons/li-icon.png) no-repeat left 7px;"> Technical support services; And many others…</li>
+                            <li style="background: url({{asset('assets/img/icons/li-icon.png')}}) no-repeat left 7px;">Computer network implementation and maintenance;</li>
+                            <li style="background: url({{asset('assets/img/icons/li-icon.png')}}) no-repeat left 7px;">Security and surveillance Systems for offices and vehicles;</li>
+                            <li style="background: url({{asset('assets/img/icons/li-icon.png')}}) no-repeat left 7px;">Translation and video conference systems;</li>
+                            <li style="background: url({{asset('assets/img/icons/li-icon.png')}}) no-repeat left 7px;">Satellite television systems setup;</li>
+                            <li style="background: url({{asset('assets/img/icons/li-icon.png')}}) no-repeat left 7px;">Solar Energy system implementation;</li>
+                            <li style="background: url({{asset('assets/img/icons/li-icon.png')}}) no-repeat left 7px;">Database setup and management;</li>
+                            <li style="background: url({{asset('assets/img/icons/li-icon.png')}}) no-repeat left 7px;">Websites and software programing;</li>
+                            <li style="background: url({{asset('assets/img/icons/li-icon.png')}}) no-repeat left 7px;">Seminars on integrated management software packages;</li>
+                            <li style="background: url({{asset('assets/img/icons/li-icon.png')}}) no-repeat left 7px;"> Translation & Interpration Services;</li>
+                            <li style="background: url({{asset('assets/img/icons/li-icon.png')}}) no-repeat left 7px;"> Technical support services; And many others…</li>
                         </ul>
                         <!--business-box-->
                     </div>
@@ -96,7 +96,8 @@
                         <div>
                             <h2>ABOUT THE FOUNDER</h2>
                             <p>Jean Samuel Jules (CEO)</p>
-                            <div class="transparent-btn pull-left"><a href="blog-post.html">More</a></div>
+                            <div class="transparent-btn pull-left">
+                                <a href="{{route('blog.'.app()->getLocale())}}">More</a></div>
                         </div>
                         <!--who-we-are-->
                     </div>
@@ -104,7 +105,7 @@
                 </div>
                 <!--container-->
             </div>
-            <div class="who-we-are-img"><img src="assets/images/services/who-we-are-img.png" alt="who-we-are-img" /></div>
+            <div class="who-we-are-img"><img src="{{asset('assets/img/logo/who-we-are-img.png')}}" alt="who-we-are-img" /></div>
             <!--pattern-->
         </div>
         <!--=====================================-->
@@ -118,19 +119,14 @@
                     <div class="spacer"></div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <aside class="advisor-box col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <figure class="advisor-img1"><img alt="advisor-img1" src="assets/images/services/advisor-img1.png"></figure>
+                            <figure class="advisor-img1"><img alt="advisor-img1" src="{{asset('assets/img/services/advisor-img1.png')}}"></figure>
                             <div class="advisor-info text-right">
                                 <h3>Jean<br>Samuel<br>Jules<span><hr>Chief Advisor<br>CEO</span></h3>
-                                <!--
-                                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                advisor-info-->
                             </div>
                             <div class="social-icons">
                                 <ul>
                                     <li><a href="https://web.facebook.com/jsjulessam/" class="fa fa-facebook"></a></li>
                                     <li><a href="https://twitter.com/jsjulessam" class="fa fa-twitter"></a></li>
-                                    <!--// <li><a href="#" class="fa fa-linkedin"></a></li>
-                                    <li><a href="#" class="fa fa-google-plus"></a></li> //-->
                                 </ul>
                                 <!--social-icons-->
                             </div>
@@ -140,7 +136,7 @@
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <aside class="advisor-box col-lg-12 col-md-12 col-sm-12 col-xs-12 active">
-                            <figure class="advisor-img2"><img alt="advisor-img2" src="images/advisor-img2.png"></figure>
+                            <figure class="advisor-img2"><img alt="advisor-img2" src="{{asset('assets/img/services/advisor-img1.png')}}"></figure>
                             <div class="advisor-info text-right">
                                 <h3>Valerie<span><hr>Chief Advisor</span></h3>
                                 <!--
@@ -162,7 +158,7 @@
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <aside class="advisor-box col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <figure class="advisor-img3"><img alt="advisor-img3" src="images/advisor-img3.png"></figure>
+                            <figure class="advisor-img3"><img alt="advisor-img3" src="{{asset('assets/img/services/advisor-img1.png')}}"></figure>
                             <div class="advisor-info text-right">
                                 <h3>Cassy <span><hr>Chief Advisor</span></h3>
                                 <!--
@@ -184,7 +180,7 @@
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <aside class="advisor-box col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <figure class="advisor-img4"><img alt="advisor-img4" src="images/advisor-img4.png"></figure>
+                            <figure class="advisor-img4"><img alt="advisor-img4" src="{{asset('assets/img/services/advisor-img1.png')}}"></figure>
                             <div class="advisor-info text-right">
                                 <h3>NewOne <span><hr>Chief Advisor</span></h3>
                                 <!--
@@ -195,8 +191,7 @@
                                 <ul>
                                     <li><a href="#" class="fa fa-facebook"></a></li>
                                     <li><a href="#" class="fa fa-twitter"></a></li>
-                                    <!--// <li><a href="#" class="fa fa-linkedin"></a></li>
-                                    <li><a href="#" class="fa fa-google-plus"></a></li> -->
+
                                 </ul>
                                 <!--social-icons-->
                             </div>

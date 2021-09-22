@@ -1,6 +1,6 @@
 @extends('template.tmpitcg')
 
-@section('title', 'Home')
+@section('title', 'Contact')
 
 @section('bannerpage')
 
@@ -36,7 +36,7 @@
                 </div>
 
                 <div class="sub-banner-img subbannerabout col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <img src="assets/images/banners/about-banner.jpg">
+                    <img src="{{asset('assets/img/banners/about-banner.jpg')}}">
                 </div>
                 <!--row-->
             </div>

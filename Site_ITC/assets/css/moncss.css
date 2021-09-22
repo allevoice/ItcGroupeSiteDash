@@ -9,9 +9,10 @@
 
 .colorback{
    background-color:#000000;
-
 }
-
+.img_carousel{
+    background-color: transparent;
+}
 
 .subbannerabout img{
    width: 100%;
@@ -113,7 +114,6 @@
         float: left;
         margin-top:10%;
         margin-left:-42%;
-        background-color: transparent;
     }
 
 
@@ -142,7 +142,6 @@
         float: left;
         margin-top:20%;
         margin-left:-38%;
-        background-color: transparent;
     }
 
 }
@@ -162,7 +161,7 @@
         float: left;
         margin-top:15%;
         margin-left:-43%;
-        background-color: transparent;
+        z-index: 999;
     }
 
 }
@@ -182,7 +181,6 @@
         float: left;
         margin-top:15%;
         margin-left:-43%;
-        background-color: transparent;
     }
 
 }

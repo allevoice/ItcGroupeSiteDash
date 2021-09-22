@@ -45,6 +45,7 @@
     <script src="{{asset('assets/js/counter/counter.js')}}"></script>
     <!-- Owl Carousel -->
     <script src="{{asset('assets/owl-carousel/js/owl.carousel.js')}}"></script>
+<script src="{{asset('assets/js/projects/isotope.js')}}"></script>
     <!-- LAZY EFFECTS Scripts -->
     <script type="text/javascript" src="{{asset('assets/js/jquery.unveilEffects.js')}}"></script>
     <!-- Custom Scripts -->
