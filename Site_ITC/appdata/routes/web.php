@@ -56,6 +56,15 @@ Route::group(['prefix'=>'fr'],function () {
 
 });
 
+Route::get('/login',function(){
+    echo 'login page';
+})->name('loginpage');
+
+
+
+Route::get('/admin','App\Http\Controllers\DashpageController@index')->name('adminpage');
+
+
 
 
 //Mes routes en Anglais

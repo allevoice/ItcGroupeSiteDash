@@ -409,6 +409,7 @@
                             </div>
                             <!--col-lg-3-->
                         </aside>
+
                         <aside class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="partner-logos col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <span> <a href="#">
@@ -418,6 +419,7 @@
                             </div>
                             <!--col-lg-3-->
                         </aside>
+
                         <aside class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="partner-logos col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <span> <a href="#">
@@ -430,7 +432,7 @@
                         <aside class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                             <div class="partner-logos col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <span> <a href="#">
-                                        <img src="{{asset('assets/img/partners/partner-logo8.png')}}" alt="" />
+                                        <img src="{{asset('assets/img/partners/partner-logo8.jpg')}}" alt="" />
                                     </a> </span>
                                 <!--partner-logos-->
                             </div>

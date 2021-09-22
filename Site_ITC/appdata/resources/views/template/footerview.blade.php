@@ -75,7 +75,7 @@
                         <li>Copyright © FC Group 2020.</li>
                         <li>All rights reserved.</li>
                         <li>Created by:
-                            <a href="#">Wilck Connect</a>
+                            <a href="#">NTPSAMS</a>
                         </li>
                     </ul>
                     <div class="social-icons">
@@ -94,6 +94,10 @@
                         <!--social-icons-->
                     </div>
                     <!--copyright-section-->
+                    <ul>
+                        <li><a href="{{route('adminpage')}}"><i class="fa fa-lock" style="color: goldenrod;font-size: 20px;"></i></a></li>
+
+                    </ul>
                 </aside>
                 <!--footer-->
             </div>
