@@ -22,14 +22,10 @@
 .who-we-are-img {
     right: 0;
     top: 0;
+    position: absolute;
     width: 20.7cm;
 
 }
-
-.who-we-are-img {
-    position: absolute;
-}
-
 .who-we-are{
     background: rgba(0, 0, 0, 1) none repeat scroll 0 0;
     position: relative;
