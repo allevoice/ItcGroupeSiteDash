@@ -5,8 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>ITC Group | @yield('title')</title>
-        <link rel="icon" href="{{asset('assets/images/logo/favicon.png')}}" type="image/png">
+        <link rel="icon" href="{{asset('assets/img/logo/favicon.png')}}" type="image/png">
         <link rel="stylesheet" href="{{asset('assets/css/all-stylesheets.css')}}" type="text/css" />
+
 
     </head>
 

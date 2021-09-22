@@ -33,19 +33,19 @@
                 <aside class="sitemap col-lg-2 col-md-3 col-sm-6 col-xs-12">
                     <h5>partnership</h5>
                     <ul>
-                        <li>
+                        <li style="background: url({{asset('assets/img/icons/li-icon.png')}}) no-repeat left 7px;">
                             <a href="#">NTPsams Technology</a>
                         </li>
-                        <li>
+                        <li style="background: url({{asset('assets/img/icons/li-icon.png')}}) no-repeat left 7px;">
                             <a href="#">Rapahel Tech</a>
                         </li>
-                        <li>
+                        <li style="background: url({{asset('assets/img/icons/li-icon.png')}}) no-repeat left 7px;">
                             <a href="#">ITC call center</a>
                         </li>
-                        <li>
+                        <li style="background: url({{asset('assets/img/icons/li-icon.png')}}) no-repeat left 7px;">
                             <a href="#">Sam fotografi</a>
                         </li>
-                        <li>
+                        <li style="background: url({{asset('assets/img/icons/li-icon.png')}}) no-repeat left 7px;">
                             <a href="#">Event pa'm</a>
                         </li>
                     </ul>
@@ -67,8 +67,8 @@
                 </aside>
                 <aside class="copyright-section col-lg-3 col-md-3 col-sm-12 col-xs-12">
                     <div class="logo pull-left">
-                        <a href="index.html">
-                            <img src="assets/images/logo/footer-logo.png" alt="logo" />
+                        <a href="{{route('home.'.app()->getLocale())}}">
+                            <img src="{{asset('assets/img/logo/footer-logo.png')}}" alt="logo" />
                         </a>
                     </div>
                     <ul>

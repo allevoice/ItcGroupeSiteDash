@@ -9,7 +9,7 @@
                 <div class="logo pull-left">
 
 
-                    <a href="">
+                    <a href="{{route('home.'.app()->getLocale())}}">
                         <img src="{{asset('assets/img/logo/logo.png')}}" alt="logo" />
                     </a>
                 </div>
